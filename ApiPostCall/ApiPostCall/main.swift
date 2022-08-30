@@ -48,6 +48,6 @@ struct Response: Codable {
     let title: String
 }
 
-let post = makePOSTRequest()
+let post: () = makePOSTRequest()
 print(post)
 
